@@ -1,0 +1,352 @@
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+    .work__block_in {
+        width: 33.333333333%;
+        padding: 0 8px 0 8px;
+    }
+
+    .content__block {
+        width: 25%;
+    }
+
+    .content__block2 {
+        width: 75%;
+        margin: 0 0 0 16px;
+    }
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+
+    .search input {
+        width: 210px;
+    }
+
+    .selected-item {
+        width: 173px;
+    }
+
+    .option-list {
+        width: 173px;
+    }
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 850px) {
+    .content__block {
+        display: none;
+    }
+
+    .content__block2 {
+        width: 100%;
+        margin: 0 0 0 0px;
+    }
+
+   
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+    .work__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -4px;
+    }
+    .work__block_in {
+        width: 50%;
+        padding: 0 4px 0 4px;
+    }
+
+    .container {
+        max-width: 1432px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px 16px;
+    }
+
+    .product__wrap {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        position: absolute;
+        right: 16px;
+        top: 27px;
+    }
+
+    .about__wrap {
+        position: unset;
+    }
+
+    .vk__top {
+        display: none;
+    }
+
+    .catalog__wrap {
+        position: absolute;
+        right: 16px;
+        top: 93px;
+        background: #161827;
+        border: 1px solid #1A1C2E;
+        box-shadow: 0px 8px 32px rgba(7, 7, 12, 0.6);
+        border-radius: 8px;
+        width: 360px;
+        padding: 16px;
+        z-index: 1;
+    }
+
+    .catalog__img {
+        margin: 0 16px 0 0;
+        width: 34%;
+    }
+
+    .menu__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0 0px 0;
+    }
+
+    .ft__wrap {
+        flex-wrap: wrap;
+    }
+
+    .ft__block {
+        width: 50%;
+        order: 1;
+    }
+
+    .ft__block2 {
+        width: 100%;
+    order: 3;
+    }
+
+    .ft__block3 {
+        width: 50%;
+        order: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .copyright__wrap {
+        display: block;
+    }
+
+    .politic__wrap {
+        display: block;
+    }
+
+    .politic {
+        display: block;
+        font-size: 12px;
+        line-height: 16px;
+        color: #5D6284;
+        cursor: pointer;
+        font-family: 'Roboto-Medium';
+        padding: 8px 0px 0 0px;
+    }
+
+    .politic span {
+        display: none;
+    }
+
+    .menu__bottom li {
+        margin: 0 0px 0 0px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        line-height: 16px;
+        color: #5D6284;
+        font-family: 'Roboto-Medium';
+        margin: 0 0 8px 0;
+    }
+
+    .close.open {
+        display: block;
+        position: absolute;
+        top: 32px;
+        right: 16px;
+      }
+    
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+    .search input {
+        width: 100%;
+    }
+  .search {
+    display: none;
+  }
+
+  .about__wrap {
+    position: unset;
+    background: none;
+    padding: 0;
+    }
+
+    .selected-item {
+        padding: 9px 0 10px 16px;
+        cursor: pointer;
+        transition: .4s;
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        font-size: 14px;
+        font-family: 'Roboto-Medium';
+        color: #fff;
+        line-height: 22px;
+        margin: 0px 0 0 0px;
+        background: #272A3F;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .form__wrap {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .custom-select {
+        width: 100%;
+        position: relative;
+    }
+
+    .option-list {
+        left: 0;
+        width: 100%;
+    }
+
+    .about__wrap {
+        margin: 0 0 16px 0;
+    }
+
+    .work__block {
+        cursor: pointer;
+        background: #161827;
+        border-radius: 8px;
+        padding: 0 0 12px 0;
+        margin: 0 0px 8px 0px;
+    }
+
+    footer {
+        background: #11121C;
+        padding: 32px 0 32px 0;
+        margin: 48px 0 0 0;
+    }
+
+    .work__title {
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding: 12px 30px 0 0px;
+        margin: 0 0 9px 0;
+    }
+
+    .work__price {
+        position: relative;
+        font-size: 20px;
+        cursor: pointer;
+        line-height: 32px;
+        font-family: 'Roboto-Bold';
+        color: #FFFFFF;
+    }
+    
+    .menu__bottom li a {
+        font-size: 16px;
+        line-height: 24px;
+        color: #AFB4D4;
+        font-family: 'Roboto-Bold';
+    }
+
+    .search__mb {  
+        background: #272A3F;
+        border-radius: 5px;
+        display: flex;
+        margin: 0 0 0 10px;
+    }
+
+    .work__inner {
+        padding: 0 11px 0 12px;
+    }
+
+    .select_section {
+        display: block;
+        margin: 0 0 10px 0;
+    }
+
+    .option {
+        margin-bottom: 0px;
+        padding: 3px 8px;
+        cursor: pointer;
+        transition: .4s;
+        font-size: 14px;
+        font-family: 'Roboto-Medium';
+        line-height: 34px;
+        border-radius: 8px;
+    }
+
+    .search button {
+        position: absolute;
+        left: 16px;
+        top: 10px;
+    }
+
+    .search input {
+        background: #272A3F;
+        border-radius: 8px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: 'Roboto-Medium';
+        color: #fff;
+        display: block;
+        border: none;
+        height: 41px;
+        padding: 0 0 0 48px;
+    }
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+    .catalog__wrap {
+        width: 100%;
+        right: 0;
+        border-radius: 0;
+}
+
+    .catalog__img {
+        margin: 0 16px 0 0;
+        width: 38%;
+    }
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
